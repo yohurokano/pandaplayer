@@ -1,8 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import type { ReactNode } from 'react';
 import type { MusicFile, MusicLibrary, SortBy, SortOrder, ViewMode } from '../types/music';
-// We still need Playlist type internally
-import type { Playlist } from '../types/music';
 import {
   scanDirectory,
   getEmptyLibrary,
